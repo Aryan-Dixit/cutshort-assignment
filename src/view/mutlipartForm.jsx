@@ -43,7 +43,7 @@ export default function MultipartForm() {
                      }
                      break;
             
-            default : return;
+            default : break;
             
         }
         setCurrentStep(currentStep >= 3 ? 4 : currentStep + 1);

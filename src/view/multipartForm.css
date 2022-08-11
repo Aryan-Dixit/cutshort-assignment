@@ -6,7 +6,7 @@
 }
 
 .form-heading{
-    font-size: 2.9vw;
+    font-size: 2.8vw;
     font-weight: bold;
     justify-content: center;
 }
@@ -25,26 +25,26 @@
 }
 
 .form-desc{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     color: #9BA0AB;
-    padding: 5%;
+    padding: 2%;
 }
 
 .name-title{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     font-weight: bold;
-    padding: 5% 0 2% 0;
+    padding: 2% 0 2% 0;
     color: #40434a;
 }
 
 .name-input{
-    font-size: 1.6vw;
-    width: 39.2vw;
+    font-size: 1.5vw;
+    width: 39vw;
     border-radius: 4px;
     border-width: 0.3vh;
     border-color: #bdc5d6;
     box-shadow: none;
-    padding: 1vw;
+    padding: 0.9vw;
 }
 
 ::-webkit-input-placeholder {
@@ -52,35 +52,35 @@
   }
 
 .input-example{
-    font-size: 1.6vw;
-    width: 14.7vw;
+    font-size: 1.5vw;
+    width: 14.6vw;
     border-radius: 4px 0 0 4px;
     border-right: 0;
     border-width: 0.3vh;
     border-color: #bdc5d6;
     box-shadow: none;
-    padding: 1vw;
+    padding: 0.9vw;
 }
 
 .optional-input{
-    font-size: 1.6vw;
-    width: 24.5vw;
+    font-size: 1.5vw;
+    width: 24.4vw;
     border-radius: 0 4px 4px 0;
     border-width: 0.3vh;
     border-color: #bdc5d6;
     box-shadow: none;
-    padding: 1vw;
+    padding: 0.9vw;
 }
 
 .profile-button-active{
     border: 2px solid #5a4ad1;
     border-radius: 4px;
     color: black;
-    width: 32vw;
-    font-size: 1.6vw;
+    width: 31vw;
+    font-size: 1.5vw;
     margin-top: 4%;
     margin-left: 24%;
-    padding: 1vw;
+    padding: 0.9vw;
 }
 
 .profile-button{
@@ -88,10 +88,10 @@
     border-radius: 4px;
     color: black;
     width: 32vw;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     margin-top: 4%;
     margin-left: 24%;
-    padding: 1vw;
+    padding: 0.9vw;
 }
 
 .form-button{
@@ -99,16 +99,16 @@
     border-color: #5a4ad1;
     border-radius: 4px;
     color: white;
-    width: 39.2vw;
-    font-size: 1.6vw;
+    width: 39vw;
+    font-size: 1.5vw;
     margin-top: 5%;
-    padding: 1vw;
+    padding: 0.9vw;
 }
 
 .progressbar{
     position: relative;
     display: flex;
-    width: 35vw;
+    width: 34vw;
     justify-content: space-between;
     margin: 2rem 0 4rem 0;
     counter-reset: step;

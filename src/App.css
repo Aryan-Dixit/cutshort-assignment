@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App-header {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}

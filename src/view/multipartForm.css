@@ -1,0 +1,148 @@
+.root-form{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form-heading{
+    font-size: 2.9vw;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.form-group{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form-group-profile{
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.form-desc{
+    font-size: 1.6vw;
+    color: #9BA0AB;
+    padding: 5%;
+}
+
+.name-title{
+    font-size: 1.6vw;
+    font-weight: bold;
+    padding: 5% 0 2% 0;
+    color: #40434a;
+}
+
+.name-input{
+    font-size: 1.6vw;
+    width: 39.2vw;
+    border-radius: 4px;
+    border-width: 0.3vh;
+    border-color: #bdc5d6;
+    box-shadow: none;
+    padding: 1vw;
+}
+
+::-webkit-input-placeholder {
+    color: #bdc5d6;
+  }
+
+.input-example{
+    font-size: 1.6vw;
+    width: 14.7vw;
+    border-radius: 4px 0 0 4px;
+    border-right: 0;
+    border-width: 0.3vh;
+    border-color: #bdc5d6;
+    box-shadow: none;
+    padding: 1vw;
+}
+
+.optional-input{
+    font-size: 1.6vw;
+    width: 24.5vw;
+    border-radius: 0 4px 4px 0;
+    border-width: 0.3vh;
+    border-color: #bdc5d6;
+    box-shadow: none;
+    padding: 1vw;
+}
+
+.profile-button-active{
+    border: 2px solid #5a4ad1;
+    border-radius: 4px;
+    color: black;
+    width: 32vw;
+    font-size: 1.6vw;
+    margin-top: 4%;
+    margin-left: 24%;
+    padding: 1vw;
+}
+
+.profile-button{
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+    width: 32vw;
+    font-size: 1.6vw;
+    margin-top: 4%;
+    margin-left: 24%;
+    padding: 1vw;
+}
+
+.form-button{
+    background-color: #5a4ad1;
+    border-color: #5a4ad1;
+    border-radius: 4px;
+    color: white;
+    width: 39.2vw;
+    font-size: 1.6vw;
+    margin-top: 5%;
+    padding: 1vw;
+}
+
+.progressbar{
+    position: relative;
+    display: flex;
+    width: 35vw;
+    justify-content: space-between;
+    margin: 2rem 0 4rem 0;
+    counter-reset: step;
+}
+
+.progressbar::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    width: 100%;
+    background-color: #9BA0AB;
+}
+
+.progress-step{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid #9BA0AB;
+    font-size: large;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 2;
+}
+
+.progress-step::before{
+    counter-increment: step;
+    content: counter(step);
+}
+
+.progress-step.active{
+    background-color: #5a4ad1;
+    color: white;
+}
